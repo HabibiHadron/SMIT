@@ -1,0 +1,47 @@
+.nav-bar table {
+    border: 1px solid black;
+    margin: auto;
+}
+
+.nav-bar td {
+    border: 1px solid black;
+    padding: 7px 18px;
+}
+
+footer {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Gallery Page */
+.gallery-h1-letter-h {
+    border: 1px solid black;
+}
+
+.gallery-p-letter-h {
+    border: 1px solid black;
+}
+
+.gallery-p-word-heading {
+    border: 1px solid red;
+}
+
+.gallery-images {
+    text-align: center;
+}
+
+.gallery-images img {
+    width: 200px;
+}
+
+/* Login Page */
+
+.login-form,
+.register-form {
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}
