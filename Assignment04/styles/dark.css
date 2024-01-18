@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #212121;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    width: 50%;
+}
+
+.button {
+    width: 50%;
+}
+
+.button div {
+    text-align: right;
+}
+
+/* button styling start*/
+
+.button button {
+    width: 100px;
+    padding: 10px 0;
+    color: white;
+    background-color: black;
+    border: 3px solid gray;
+    font-weight: bold;
+    position: relative;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+
+.button button:hover {
+    width: 110px;
+    margin-right: 5px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.button button:before {
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    width: 7px;
+    height: 3px;
+    top: -3px;
+    left: 5px;
+    background-color: black;
+    position: absolute;
+    content: "";
+    transition: 0.5s;
+}
+
+.button button:after {
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    width: 7px;
+    height: 3px;
+    bottom: -3px;
+    right: 5px;
+    background-color: black;
+    position: absolute;
+    content: "";
+    transition: 0.5s;
+}
+
+.button button:hover:before {
+    transform: translateX(87px);
+    background-color: black;
+}
+
+.button button:hover:after {
+    transform: translateX(-87px);
+    background-color: black;
+}
+
+/* button styling end*/
+
+/* table start */
+
+.heading {
+    text-align: center;
+}
+
+h2 {
+    padding: 40px 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table th,
+table td {
+    padding: 20px 5px;
+    border: 1px solid #8a8a8a;
+}
+
+/* table end */
+
+main {
+    background-color: #282828;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
