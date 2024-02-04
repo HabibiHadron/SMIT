@@ -55,7 +55,7 @@
 }
 
 .sec-2 {
-    background-image: url("../assets/images/bg.webp");
+    background-image: url("https://github.com/HadronCollision/SMIT/blob/main/Assignment05/assets/images/bg.png");
     background-attachment: fixed;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
@@ -121,7 +121,7 @@
     color: white;
     font-family: "Raleway";
     text-align: center;
-    background-image: url("../assets/images/bg.webp");
+    background-image: url("https://github.com/HadronCollision/SMIT/blob/main/Assignment05/assets/images/bg.png");
     background-attachment: fixed;
     width: 100vw;
     margin-left: -15vw;
