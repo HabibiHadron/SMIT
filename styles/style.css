@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.header {
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar li {
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo,
+.nav-bar {
+    padding: 18px 25px;
+}
+
+@media screen and (width <=480px) {
+    .container {
+        width: 90%;
+    }
+
+    header a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .logo,
+    .nav-bar {
+        padding: 15px 10px;
+    }
+}
+
+@media screen and (width <=1050px) {
+    .container {
+        width: 80%;
+    }
+
+    header a {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .logo,
+    .nav-bar {
+        padding: 15px 10px;
+    }
+}
+
+/* main */
+
+.banner {
+    margin-bottom: 50px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 26px;
+    letter-spacing: 4px;
+}
+
+.banner span b {
+    background-color: black;
+    opacity: 0.75;
+    padding: 10px;
+}
+
+.projects {
+    margin-bottom: 50px;
+}
+
+.houses {
+    margin-top: 30px;
+}
+
+.houses p {
+    top: 5px;
+    left: 5px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 7px 15px;
+    position: absolute;
+}
+
+.house-5 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.house-2 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.house-3 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.house-4 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.houses div {
+    width: 25%;
+    position: relative;
+}
+
+.houses img {
+    width: 100%;
+    padding: 5px;
+}
+
+.houses {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (width <=480px) {
+    .banner {
+        padding-top: 10%;
+    }
+
+    .banner span {
+        font-size: 15px;
+    }
+
+    .banner span b {
+        padding: 5px;
+    }
+
+    .houses div {
+        width: 100%;
+    }
+}
+
+@media screen and (width <=1050px) {
+    .banner {
+        padding-top: 5%;
+    }
+
+    .banner span {
+        font-size: 15px;
+    }
+
+    .banner span b {
+        padding: 5px;
+    }
+
+    .houses div {
+        min-width: 50%;
+    }
+}
+
+.about p {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.cards div {
+    width: 24%;
+    padding: 5px;
+}
+
+.cards img {
+    width: 100%;
+    filter: grayscale(70%);
+}
+
+.cards h3 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.cards .role {
+    color: #7e7e7e
+}
+
+.cards button {
+    background-color: #f1f1f1;
+    border-style: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.cards button:hover {
+    background-color: #ccc;
+}
+
+@media screen and (width <=480px) {
+
+    .cards div {
+        width: 100%;
+    }
+}
+
+@media screen and (width <=1050px) {
+    .cards div {
+        min-width: 50%;
+    }
+}
+
+.contact {
+    margin-bottom: 30px;
+}
+
+.contact h3 {
+    margin-top: 50px;
+}
+
+.contact p {
+    margin-top: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input {
+    padding: 10px 5px;
+    margin: 10px 0;
+}
+
+.contact button {
+    border-style: none;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.projects h3,
+.about h3:first-child,
+.contact h3 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.map img {
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer {
+    left: 0;
+    position: absolute;
+}
+
+footer div {
+    width: 100vw;
+    position: absolute;
+}
